@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+clap = "4.5.16"
+ctrlc = "3.4.5"
+gstreamer = "0.23.1"
+
+[build]
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-none-linux-gnueabihf-gcc"
